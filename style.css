@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #777C6D;
+    color: #000000;
+}
+
+  .cabecalho_menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+  }
+
+    .cabecalho_menu_link {
+      padding: 10px 15px;
+  }
+
+
+
+.cabecalho_menu_link {
+    font-size: 18px;
+    color: #333;
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid#CBCBCB;
+    border-radius: 12px;
+}
+
+.cabecalho_menu_link:hover {
+    color: #B7B89F;
+    
+    
+}
+
+.titulo_destaque {
+    color: #000000;
+
+}
+
+.apresentacao {
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.apresentacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.apresentacao_conteudo_titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao_conteudo_texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.social_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    gap: 32px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.button_icons {
+    /*background-color: #CBCBCB;*/
+    display: flex;
+    border: 2px solid#CBCBCB;
+    width: 378px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.button_icons i {
+    font-size: 28px;
+}
+
+.button_icons:hover {
+    background-color: #B7B89F;
+    transform: scale(1.05);
+}
+
+.apresentacao img {
+    width: 400px;
+    height: auto;
+    border-radius: 16px;
+    /* Adiciona bordas arredondadas */
+}
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #B7B89F;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
