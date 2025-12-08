@@ -12,6 +12,17 @@ body {
     color: #000000;
 }
 
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    padding: 20px 10px 10px 25px;
+}
+
 .cabecalho_menu_link {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
@@ -25,13 +36,6 @@ body {
     padding: 10px 15px;
 }
 
-.cabecalho_menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
 .cabecalho_menu_link:hover {
     color: #B7B89F;
 
@@ -39,7 +43,7 @@ body {
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
