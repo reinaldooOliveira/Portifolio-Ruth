@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+
+:root{
+    --cor-primaria: #777C6D;
+    --cor-secudaria: #000000;
+    --cor-terciaria: #CBCBCB;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +18,8 @@ body {
     min-height: 100vh; /* ocupa no mínimo toda a altura da tela */
     margin: 0; 
     box-sizing: border-box;
-    background-color: #777C6D;
-    color: #000000;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secudaria);
 }
 
 main {
@@ -38,7 +45,7 @@ main {
     margin: 0 10px;
     padding: 5px 10px;
     text-decoration: none;
-    border: 2px solid#CBCBCB;
+    border: 2px solid var(--cor-terciaria);
     border-radius: 12px;
     padding: 10px 15px;
 }
@@ -71,7 +78,7 @@ main {
 }
 
 .titulo_destaque {
-    color: #000000;
+    color: var(--cor-secudaria);
 
 }
 
@@ -94,7 +101,7 @@ main {
 .button_icons {
     /*background-color: #CBCBCB;*/
     display: flex;
-    border: 2px solid#CBCBCB;
+    border: 2px solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
     border-radius: 16px;
@@ -102,7 +109,7 @@ main {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: var(--cor-secudaria);
     font-family: 'Montserrat', sans-serif;
     transition: 0.3s;
     align-items: center;
@@ -128,7 +135,7 @@ main {
 
 .rodape {
     padding: 24px;
-    color: #000000;
+    color: var(--cor-secudaria);
     background-color: #B7B89F;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
