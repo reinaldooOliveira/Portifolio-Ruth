@@ -6,10 +6,17 @@
 }
 
 body {
-    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ocupa no mínimo toda a altura da tela */
+    margin: 0; 
     box-sizing: border-box;
     background-color: #777C6D;
     color: #000000;
+}
+
+main {
+    flex: 1; /* faz o conteúdo principal crescer e empurrar o rodapé para baixo */
 }
 
 .cabecalho{
