@@ -5,6 +5,10 @@
     --cor-primaria: #777C6D;
     --cor-secudaria: #000000;
     --cor-terciaria: #CBCBCB;
+    --cor-hover: #B7B89F;
+
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
 }
 
 * {
@@ -38,7 +42,7 @@ main {
 }
 
 .cabecalho_menu_link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 600;
     color: #333;
@@ -51,7 +55,7 @@ main {
 }
 
 .cabecalho_menu_link:hover {
-    color: #B7B89F;
+    color: var(--cor-hover);
 
 
 }
@@ -74,7 +78,7 @@ main {
 
 .apresentacao_conteudo_titulo {
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .titulo_destaque {
@@ -84,7 +88,7 @@ main {
 
 .apresentacao_conteudo_texto {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     line-height: 1.5;
 }
 
@@ -95,7 +99,7 @@ main {
     gap: 20px;
     align-items: center;
     gap: 32px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .button_icons {
@@ -110,7 +114,7 @@ main {
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secudaria);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     transition: 0.3s;
     align-items: center;
     justify-content: center;
@@ -138,7 +142,7 @@ main {
     color: var(--cor-secudaria);
     background-color: #B7B89F;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
